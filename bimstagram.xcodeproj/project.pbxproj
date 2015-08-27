@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C06254A1B8F4D330044955F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0625491B8F4D330044955F /* AppDelegate.swift */; };
+		0C06254F1B8F4D330044955F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C06254D1B8F4D330044955F /* Main.storyboard */; };
+		0C0625511B8F4D330044955F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C0625501B8F4D330044955F /* Images.xcassets */; };
+		0C0625541B8F4D330044955F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C0625521B8F4D330044955F /* LaunchScreen.xib */; };
+		0C0625601B8F4D330044955F /* bimstagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C06255F1B8F4D330044955F /* bimstagramTests.swift */; };
+		0CD648DA1B8F502A00A3D4F7 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD648D91B8F502A00A3D4F7 /* PhotosViewController.swift */; };
+		0CD648DF1B8F6F9A00A3D4F7 /* PhotoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD648DE1B8F6F9A00A3D4F7 /* PhotoTableViewCell.swift */; };
+		0CD648E21B8F9BCD00A3D4F7 /* PhotoDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD648E11B8F9BCD00A3D4F7 /* PhotoDetailsViewController.swift */; };
+		49D374544300CF3EAAF9A1C6 /* libPods-bimstagram.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A6E825C96F7731B4A3C525 /* libPods-bimstagram.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0C06255A1B8F4D330044955F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C06253C1B8F4D330044955F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C0625431B8F4D330044955F;
+			remoteInfo = bimstagram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C0625441B8F4D330044955F /* bimstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bimstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C0625481B8F4D330044955F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C0625491B8F4D330044955F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0C06254E1B8F4D330044955F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0C0625501B8F4D330044955F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0C0625531B8F4D330044955F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		0C0625591B8F4D330044955F /* bimstagramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bimstagramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C06255E1B8F4D330044955F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C06255F1B8F4D330044955F /* bimstagramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bimstagramTests.swift; sourceTree = "<group>"; };
+		0CD648D91B8F502A00A3D4F7 /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		0CD648DB1B8F52FA00A3D4F7 /* bimstagram-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bimstagram-Bridging-Header.h"; sourceTree = "<group>"; };
+		0CD648DE1B8F6F9A00A3D4F7 /* PhotoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoTableViewCell.swift; sourceTree = "<group>"; };
+		0CD648E11B8F9BCD00A3D4F7 /* PhotoDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoDetailsViewController.swift; sourceTree = "<group>"; };
+		18A6E825C96F7731B4A3C525 /* libPods-bimstagram.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-bimstagram.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D61F02AC80D0C1D6A763317 /* Pods-bimstagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bimstagram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-bimstagram/Pods-bimstagram.debug.xcconfig"; sourceTree = "<group>"; };
+		DFB089AA671F4805F4AD7AF4 /* Pods-bimstagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bimstagram.release.xcconfig"; path = "Pods/Target Support Files/Pods-bimstagram/Pods-bimstagram.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C0625411B8F4D330044955F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49D374544300CF3EAAF9A1C6 /* libPods-bimstagram.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C0625561B8F4D330044955F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C06253B1B8F4D330044955F = {
+			isa = PBXGroup;
+			children = (
+				0C0625461B8F4D330044955F /* bimstagram */,
+				0C06255C1B8F4D330044955F /* bimstagramTests */,
+				0C0625451B8F4D330044955F /* Products */,
+				BDAC104F4AF395A086B4F5B3 /* Pods */,
+				D268D088D2BE5E4FEA523593 /* Frameworks */,
+				0CD648DB1B8F52FA00A3D4F7 /* bimstagram-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		0C0625451B8F4D330044955F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C0625441B8F4D330044955F /* bimstagram.app */,
+				0C0625591B8F4D330044955F /* bimstagramTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0C0625461B8F4D330044955F /* bimstagram */ = {
+			isa = PBXGroup;
+			children = (
+				0CD648E01B8F6F9E00A3D4F7 /* Views */,
+				0CD648D81B8F4FE800A3D4F7 /* Views Controller */,
+				0C0625491B8F4D330044955F /* AppDelegate.swift */,
+				0C06254D1B8F4D330044955F /* Main.storyboard */,
+				0C0625501B8F4D330044955F /* Images.xcassets */,
+				0C0625521B8F4D330044955F /* LaunchScreen.xib */,
+				0C0625471B8F4D330044955F /* Supporting Files */,
+			);
+			path = bimstagram;
+			sourceTree = "<group>";
+		};
+		0C0625471B8F4D330044955F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C0625481B8F4D330044955F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0C06255C1B8F4D330044955F /* bimstagramTests */ = {
+			isa = PBXGroup;
+			children = (
+				0C06255F1B8F4D330044955F /* bimstagramTests.swift */,
+				0C06255D1B8F4D330044955F /* Supporting Files */,
+			);
+			path = bimstagramTests;
+			sourceTree = "<group>";
+		};
+		0C06255D1B8F4D330044955F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C06255E1B8F4D330044955F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0CD648D81B8F4FE800A3D4F7 /* Views Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0CD648E11B8F9BCD00A3D4F7 /* PhotoDetailsViewController.swift */,
+				0CD648D91B8F502A00A3D4F7 /* PhotosViewController.swift */,
+			);
+			name = "Views Controller";
+			sourceTree = "<group>";
+		};
+		0CD648E01B8F6F9E00A3D4F7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0CD648DE1B8F6F9A00A3D4F7 /* PhotoTableViewCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		BDAC104F4AF395A086B4F5B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1D61F02AC80D0C1D6A763317 /* Pods-bimstagram.debug.xcconfig */,
+				DFB089AA671F4805F4AD7AF4 /* Pods-bimstagram.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D268D088D2BE5E4FEA523593 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18A6E825C96F7731B4A3C525 /* libPods-bimstagram.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0C0625431B8F4D330044955F /* bimstagram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C0625631B8F4D330044955F /* Build configuration list for PBXNativeTarget "bimstagram" */;
+			buildPhases = (
+				531BA695EE473FED2E2BB599 /* Check Pods Manifest.lock */,
+				0C0625401B8F4D330044955F /* Sources */,
+				0C0625411B8F4D330044955F /* Frameworks */,
+				0C0625421B8F4D330044955F /* Resources */,
+				7BD471E7EEF399661DF2217B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bimstagram;
+			productName = bimstagram;
+			productReference = 0C0625441B8F4D330044955F /* bimstagram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0C0625581B8F4D330044955F /* bimstagramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C0625661B8F4D330044955F /* Build configuration list for PBXNativeTarget "bimstagramTests" */;
+			buildPhases = (
+				0C0625551B8F4D330044955F /* Sources */,
+				0C0625561B8F4D330044955F /* Frameworks */,
+				0C0625571B8F4D330044955F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C06255B1B8F4D330044955F /* PBXTargetDependency */,
+			);
+			name = bimstagramTests;
+			productName = bimstagramTests;
+			productReference = 0C0625591B8F4D330044955F /* bimstagramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0C06253C1B8F4D330044955F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Bhaskar Maddala";
+				TargetAttributes = {
+					0C0625431B8F4D330044955F = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					0C0625581B8F4D330044955F = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 0C0625431B8F4D330044955F;
+					};
+				};
+			};
+			buildConfigurationList = 0C06253F1B8F4D330044955F /* Build configuration list for PBXProject "bimstagram" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0C06253B1B8F4D330044955F;
+			productRefGroup = 0C0625451B8F4D330044955F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C0625431B8F4D330044955F /* bimstagram */,
+				0C0625581B8F4D330044955F /* bimstagramTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C0625421B8F4D330044955F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C06254F1B8F4D330044955F /* Main.storyboard in Resources */,
+				0C0625541B8F4D330044955F /* LaunchScreen.xib in Resources */,
+				0C0625511B8F4D330044955F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C0625571B8F4D330044955F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		531BA695EE473FED2E2BB599 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7BD471E7EEF399661DF2217B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bimstagram/Pods-bimstagram-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C0625401B8F4D330044955F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CD648E21B8F9BCD00A3D4F7 /* PhotoDetailsViewController.swift in Sources */,
+				0C06254A1B8F4D330044955F /* AppDelegate.swift in Sources */,
+				0CD648DA1B8F502A00A3D4F7 /* PhotosViewController.swift in Sources */,
+				0CD648DF1B8F6F9A00A3D4F7 /* PhotoTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C0625551B8F4D330044955F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C0625601B8F4D330044955F /* bimstagramTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0C06255B1B8F4D330044955F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C0625431B8F4D330044955F /* bimstagram */;
+			targetProxy = 0C06255A1B8F4D330044955F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0C06254D1B8F4D330044955F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C06254E1B8F4D330044955F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0C0625521B8F4D330044955F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C0625531B8F4D330044955F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0C0625611B8F4D330044955F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0C0625621B8F4D330044955F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0C0625641B8F4D330044955F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D61F02AC80D0C1D6A763317 /* Pods-bimstagram.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = bimstagram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "bimstagram-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0C0625651B8F4D330044955F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFB089AA671F4805F4AD7AF4 /* Pods-bimstagram.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = bimstagram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "bimstagram-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		0C0625671B8F4D330044955F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = bimstagramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bimstagram.app/bimstagram";
+			};
+			name = Debug;
+		};
+		0C0625681B8F4D330044955F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = bimstagramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bimstagram.app/bimstagram";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C06253F1B8F4D330044955F /* Build configuration list for PBXProject "bimstagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C0625611B8F4D330044955F /* Debug */,
+				0C0625621B8F4D330044955F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C0625631B8F4D330044955F /* Build configuration list for PBXNativeTarget "bimstagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C0625641B8F4D330044955F /* Debug */,
+				0C0625651B8F4D330044955F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C0625661B8F4D330044955F /* Build configuration list for PBXNativeTarget "bimstagramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C0625671B8F4D330044955F /* Debug */,
+				0C0625681B8F4D330044955F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0C06253C1B8F4D330044955F /* Project object */;
+}
